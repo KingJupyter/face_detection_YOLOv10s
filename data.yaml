@@ -1,0 +1,12 @@
+train: ./train
+val: ./val
+
+nc: 1
+names: ['Faces']
+
+roboflow:
+  workspace: face-detection-knahl
+  project: frontal-face-coco
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/face-detection-knahl/frontal-face-coco/dataset/2
